@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/yw"
+        android:fontFamily="@font/agbalumo"
+        android:text="Hello World"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        android:textColor="@color/teal_200"
+        android:textSize="25sp"
+
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="238dp"
+        android:layout_height="158dp"
+        app:srcCompat="@mipmap/caremal_frappe"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/amiko"
+        android:text="Submit"
+        android:textColor="@color/teal_200s"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="463dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
